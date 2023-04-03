@@ -1,0 +1,26 @@
+.left-container{
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4rem;
+    color: white;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.left-container h1{
+    letter-spacing: 0.025em;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.left-container p {
+    width: auto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+}
